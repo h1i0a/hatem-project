@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hatem Alhamer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6c65bf77ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({ publicKey: "LU4H35M94wYukaknq" });
+      })();
+    </script>
+    <script src="email.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html#home" class="logo-container">
+            <img src="images/logo1.svg" class="logo" />
+            <div class="logo-text">
+              <div class="logo-name">Hatem Alhamar</div>
+              <div class="logo-subtitle">Cyber Security Analyst</div>
+            </div>
+          </a>
+          <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul id="sidemenu">
+            <li>
+              <a href="index.html#home"
+                ><i class="fa-solid fa-house-lock"></i>HOME</a
+              >
+            </li>
+            <li>
+              <a href="index.html#about"
+                ><i class="fa-solid fa-user-tie"></i>ABOUT</a
+              >
+            </li>
+            <li>
+              <a href="index.html#projects"
+                ><i class="fa-solid fa-diagram-project"></i>PROJECTS</a
+              >
+            </li>
+            <li>
+              <a href="index.html#contact"
+                ><i class="fa-solid fa-envelope"></i>CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section id="skills">
+      <div id="skills">
+        <div class="container">
+          <!-- Skills Section -->
+          <section class="skills-section">
+            <div class="section">
+              <i class="fas fa-user-shield"></i>
+              <h2 class="section-title">Skills & Tools</h2>
+            </div>
+
+            <!-- Programming & Scripting -->
+            <div class="skills-category">
+              <h3 class="category-title">Programming & Scripting</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <i class="devicon-python-plain colored"></i>
+                  </div>
+                  <h3>Python</h3>
+                  <p>Automation, Scripting, Security Tools</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <i class="devicon-java-plain colored"></i>
+                  </div>
+                  <h3>Java</h3>
+                  <p>Object-Oriented Programming</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Networking & Security Tools -->
+            <div class="skills-category">
+              <h3 class="category-title">Networking & Security Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <img src="images/nmap.svg" alt="nmap" />
+                  </div>
+                  <h3>Nmap</h3>
+                  <p>Port Scanning & Network Discovery</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <img src="images/nessus.svg" alt="Nessus" />
+                  </div>
+                  <h3>Nessus</h3>
+                  <p>Vulnerability Scanning</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <img src="images/burp.svg" alt="Burp Suite logo" />
+                  </div>
+                  <h3>Burp Suite</h3>
+                  <p>Web Application Security Testing</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <i class="fas fa-network-wired"></i>
+                  </div>
+
+                  <h3>Network Technologies</h3>
+                  <p>TCP/IP, LAN/WAN, Routers, Switches</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Databases & Backend -->
+            <div class="skills-category">
+              <h3 class="category-title">Databases & Backend</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <i class="devicon-mysql-plain colored"></i>
+                  </div>
+                  <h3>MySQL</h3>
+                  <p>Database Design & Management</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Productivity & Office Tools -->
+            <div class="skills-category">
+              <h3 class="category-title">Productivity & Office Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="tech-icon"><i class="fas fa-file-word"></i></div>
+                  <h3>MS Word</h3>
+                  <p>Documentation & Reports</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon">
+                    <i class="fas fa-file-powerpoint"></i>
+                  </div>
+                  <h3>MS PowerPoint</h3>
+                  <p>Presentations & Visual Communication</p>
+                </div>
+                <div class="skill-card">
+                  <div class="tech-icon"><i class="fas fa-file-excel"></i></div>
+                  <h3>MS Excel</h3>
+                  <p>Data Handling & Analysis</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-category">
+              <h3 class="category-title">Soft Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-card center"><h3>Teamwork</h3></div>
+                <div class="skill-card center"><h3>Flexibility</h3></div>
+                <div class="skill-card center"><h3>Fast Learning</h3></div>
+                <div class="skill-card center"><h3>Problem Solving</h3></div>
+                <div class="skill-card center"><h3>Time Management</h3></div>
+                <div class="skill-card center"><h3>Adaptability</h3></div>
+                <div class="skill-card center"><h3>Collaboration</h3></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>
+        Copyright &copy; Hatem Alhamar. All rights reserved. 2025
+        <i class="fa-solid fa-heart"></i>
+      </p>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-500px";
+      }
+    </script>
+    <script>
+      const container = document.querySelector(".floating-icons");
+      for (let i = 0; i < 15; i++) {
+        const icon = document.createElement("i");
+        const icons = ["fa-lock", "fa-shield-alt", "fa-bug", "fa-code"];
+        icon.className = `fas ${
+          icons[Math.floor(Math.random() * icons.length)]
+        } icon`;
+        icon.style.setProperty("--i", Math.random() * 10);
+        icon.style.left = `${Math.random() * 100}%`;
+        container.appendChild(icon);
+      }
+    </script>
+    <script>
+      const canvas = document.getElementById("stars");
+      const ctx = canvas.getContext("2d");
+      let stars = [];
+
+      function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        createStars();
+      }
+
+      function createStars() {
+        stars = [];
+        for (let i = 0; i < 150; i++) {
+          stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            radius: Math.random() * 1.5,
+            speed: Math.random() * 0.2 + 0.05,
+          });
+        }
+      }
+
+      function animateStars() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "#8888ff";
+        stars.forEach((star) => {
+          star.y -= star.speed;
+          if (star.y < 0) star.y = canvas.height;
+          ctx.beginPath();
+          ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+          ctx.fill();
+        });
+        requestAnimationFrame(animateStars);
+      }
+
+      let resizeTimeout;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(resizeCanvas, 150);
+      });
+
+      resizeCanvas();
+      animateStars();
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.getElementById("menuToggle");
+        const sidemenu = document.getElementById("sidemenu");
+
+        menuToggle.addEventListener("click", function () {
+          this.classList.toggle("active");
+          sidemenu.classList.toggle("active");
+        });
+
+        // Optional: Close menu when clicking any nav link
+        const navLinks = sidemenu.querySelectorAll("a");
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            menuToggle.classList.remove("active");
+            sidemenu.classList.remove("active");
+          });
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll("nav ul li a");
+
+        function updateActiveLink() {
+          let currentSection = "";
+          sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= 300 && rect.bottom >= 300) {
+              currentSection = section.getAttribute("id");
+            }
+          });
+
+          navLinks.forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${currentSection}`) {
+              link.classList.add("active");
+            }
+          });
+        }
+
+        window.addEventListener("scroll", updateActiveLink);
+        updateActiveLink(); // Run on page load too
+      });
+    </script>
+  </body>
+</html>
