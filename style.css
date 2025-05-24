@@ -676,6 +676,9 @@ nav ul li a.active::after {
   .timeline-container {
     grid-template-columns: 1fr;
   }
+  .experiences-grid-wide {
+    grid-template-columns: 1fr;
+  }
 
   .experiences-grid {
     grid-template-columns: 1fr;
