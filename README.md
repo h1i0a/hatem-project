@@ -47,20 +47,14 @@ The design of this website was inspired by:
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
-- **Deployment:** GitHub Pages  
-
----
-
-## 📸 Screenshots (Optional)  
-
-_Add screenshots here to highlight the website’s design and responsiveness._  
+- **Deployment:** GitHub Pages
 
 ---
 
 ## 🔗 Deployment  
 
 The portfolio is deployed using **GitHub Pages**.  
-[👉 View Live Deployment](https://<your-username>.github.io/myPortfolio)  
+[👉 View Live Deployment](https://h1i0a.github.io/hatem-project/)  
 
 ---
 
