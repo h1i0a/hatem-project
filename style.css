@@ -1046,6 +1046,7 @@ nav ul li a.active::after {
   font-size: 0.8rem;
   transition: all 0.3s ease;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 .tech-tag:hover {
